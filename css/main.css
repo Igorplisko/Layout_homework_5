@@ -1,0 +1,172 @@
+* { 
+	box-sizing: border-box;
+	
+}
+
+.main {
+	max-width: 745px;
+	margin: 52px auto 0;
+}
+
+.page_wapper{
+	display: flex;
+	flex-direction: column;
+
+}
+input, select, textarea {
+	background: #ebebeb;
+	border: 0;
+	
+
+}
+
+label:not([class="check"]) {
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 16px;
+	line-height: 25px;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	margin: 5px 1px 1px 1px;
+	color: #33313b ; 
+
+}
+
+input {
+	font-size: 20px;
+	line-height: 25px;
+	color: #33313b;
+	height: 55px;
+	padding: 16px 1px 1px 21px;
+	font-family: 'Merriweather Regular', sans-serif;
+	margin-bottom: 20px;
+	
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	padding: 3px;
+	width: 40px;
+	height: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  height: 50px;
+  background: #e16e69;
+  padding: 14px 30px;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 25px;
+  letter-spacing: 0.09em;
+  border: none;
+  position: absolute;
+  right: 26%;
+  top: auto;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+
+ textarea {
+ 	resize: none;
+ 	height: 150px;
+  background:#ebebeb;
+	font-family: 'Merriweather', serif;
+	padding: 20px;
+	margin-bottom: 20px;
+	resize: none;
+	font-size: 18px;
+ }
+
+hr {
+	border-color: rgba(31,49,59,.2);
+	margin-bottom: 27px;
+}
+
+select {
+	width: 100%;
+	height: 55px;
+	font-size: 18px;
+	line-height: 25px;
+	-webkit-appearance:none;
+  appearance: none;
+	color: #33313b;
+	padding-left: 21px;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 20px;
+	padding: 21px 0 11px 17px;
+}
+
+.color_text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 25px;
+	color: #e16e69;
+	text-transform: uppercase;
+	padding: 7% 0 2% 0.4%;
+}
+
+.social a{
+	text-align:center;padding: 5% 0 2% 0.4%;
+	width: 64px;
+	height: 64px;
+	float:left;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), 
+	inset 0 0 50px rgba(0,0,0,0.1);
+	border-radius: 46px;
+	margin: 0 7px 10px 0;
+	padding: 16px;
+	color: #000;
+}
+
+.instagram a:hover{
+	background: #fa364a;
+	color:#fff
+}
+.facebook a:hover{
+	background: #fa364a;
+	color:#fff;
+}
+.youtube a:hover{
+	background: #fa364a;
+	color:#fff;
+}
+.linkedin a:hover{
+	background: #fa364a;
+	color:#fff;
+}
+
+
+.flexbox  {
+	  right: -3px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 145px;
+    justify-content: space-around;
+    position: relative;
+    top: 118px;
+}
+
+
+.check {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	font-size: 17px;
+	letter-spacing: 0.02em;
+}
+
+.check>label {
+	margin-top: 10px;
+}
